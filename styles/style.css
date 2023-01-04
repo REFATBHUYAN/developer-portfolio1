@@ -72,6 +72,7 @@ nav li {
 .banner-discription {
     color: #757575;
     font-size: 18px;
+    padding-bottom: 40px;
 }
 
 /* main */
@@ -153,10 +154,103 @@ main {
 }
 
 /* summary section */
+.summary-container {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 50px;
+}
+
+.education-item {
+    border-bottom: 1px solid #D1D1D1;
+    padding: 30px 0px;
+}
+
 .summary-section {
     font-weight: 700;
     font-size: 35px;
     color: #181818;
     text-align: center;
     padding-bottom: 130px;
+}
+
+.education {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.subject {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    padding-bottom: 10px;
+}
+
+.university {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+.subject-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.btn-download {
+    text-align: center;
+}
+
+/* footer section */
+footer {
+    background: #FFF8F3;
+    padding-bottom: 100px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 28px;
+}
+
+.footer-paragraph {
+    width: 562px;
+    height: 56px;
+
+}
+
+.footer-section {
+    display: flex;
+    gap: 50px;
+    margin: 0 230px;
+    padding-bottom: 50px;
+    padding-top: 130px;
+    justify-content: space-around;
+}
+
+.form-name {
+    margin-bottom: 25px;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+.form-email {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+.text-massage {
+    width: 100%;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 10px;
+
 }
